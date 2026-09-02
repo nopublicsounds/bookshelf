@@ -1,13 +1,4 @@
-export interface Post {
-  id: string
-  title: string
-  author: string
-  review: string
-  memo: string | null
-  rating: number
-  cover: string
-}
-
+import type { Post } from './types.ts'
 export default function App({ posts }: { posts: Post[] }) {
   return (
     <main>

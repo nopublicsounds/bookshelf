@@ -1,4 +1,4 @@
-import type { Post } from './App'
+import type { Post } from './types.ts'
 
 const files = import.meta.glob('../books/*.md', {
   query: '?raw',
