@@ -1,4 +1,4 @@
-import type { Post } from '../App.tsx'  
+import type { Post } from '../types.tsx'  
 import { BrowserRouter, Link } from 'react-router-dom'
 
 export default function Card(post: Post) {
